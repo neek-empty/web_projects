@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    font-family: "Roboto Condensed";
+    background-color: rgb(215, 215, 215);
+}
+
+#name{
+    text-decoration: none;
+    color: black;
+}
+
+#name:hover{
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgb(195, 195, 195);
+    size: 90px;
+    border-radius: 10px;
+}
+
+.navbar li{
+    float: left;
+}
+
+.main {
+    text-align: center;
+}
+
+.main li{
+    list-style-position: inside;
+}
+
+.receptname{
+    text-decoration: none;
+    color: black;
+}
+
+.receptname:hover{
+    color: gray;
+}
+
+.imginrecept{
+    width: 440px;
+}
+
+.footbox{
+    background-color: gray;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
